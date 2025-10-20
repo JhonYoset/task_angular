@@ -1,4 +1,3 @@
-[Uploading pantalla.png…]()
 # Panel de Tareas del Equipo
 
 Este proyecto es una aplicación sencilla construida con Angular que permite gestionar una lista de tareas de un equipo. Se utiliza una combinación de directivas estructurale!
