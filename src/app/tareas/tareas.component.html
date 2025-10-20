@@ -1,0 +1,18 @@
+<h1>Panel de Tareas del Equipo</h1>
+
+<div *ngFor="let tarea of tareas" class="tarea" [ngClass]="{
+  'alta': tarea.prioridad === 'ALTA',
+  'media': tarea.prioridad === 'MEDIA',
+  'baja': tarea.prioridad === 'BAJA',
+  'completada': tarea.estado === 'Completada'
+}">
+
+  <h3>{{ tarea.nombre }}</h3>
+  <p><strong>Responsable:</strong> {{ tarea.responsable }}</p>
+  <p><strong>Prioridad:</strong> {{ tarea.prioridad }}</p>
+  <p><strong>Estado:</strong> {{ tarea.estado }}</p>
+
+  <span *ngIf="tarea.estado === 'Completada'" class="estado completada">✔</span>
+  <span *ngIf="tarea.estado === 'Pendiente'" class="estado pendiente">⚠</span>
+
+</div>
