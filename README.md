@@ -1,6 +1,8 @@
+![Pantalla de Tareas.](/pantalla.png "image.")
 # Panel de Tareas del Equipo
 
-Este proyecto es una aplicación sencilla construida con Angular que permite gestionar una lista de tareas de un equipo. Se utiliza una combinación de directivas estructurales y de atributo, junto con una directiva personalizada para resaltar tareas urgentes.
+Este proyecto es una aplicación sencilla construida con Angular que permite gestionar una lista de tareas de un equipo. Se utiliza una combinación de directivas estructurale!
+s y de atributo, junto con una directiva personalizada para resaltar tareas urgentes.
 
 ## Descripción
 
