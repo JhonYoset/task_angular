@@ -13,6 +13,11 @@ interface Tarea {
   styleUrls: ['./tareas.component.css'],
 })
 export class TareasComponent {
+  mostrarSoloAlta: boolean = false
+  toggleFiltroAlta() {
+    this.mostrarSoloAlta = !this.mostrarSoloAlta;
+  }
+
   tareas: Tarea[] = [
     {
       nombre: 'Revisión de contratos',

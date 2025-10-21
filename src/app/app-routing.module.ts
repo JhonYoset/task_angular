@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TareasComponent } from './tareas/tareas.component';
 
 const routes: Routes = [{
-    path: '',
+    path: 'tareas',
     component: TareasComponent,
   },
   ];

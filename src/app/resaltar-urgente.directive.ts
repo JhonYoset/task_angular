@@ -12,6 +12,11 @@ export class ResaltarUrgenteDirective implements OnInit {
     if (this.appResaltarUrgente === 'ALTA') {
       this.renderer.setStyle(this.el.nativeElement, 'backgroundColor', 'red');
       this.renderer.setStyle(this.el.nativeElement, 'color', 'white');
+      this.renderer.setStyle(
+        this.el.nativeElement,
+        'border',
+        '2px solid darkred'
+      );
     }
   }
 }
